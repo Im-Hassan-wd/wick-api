@@ -1,0 +1,15 @@
+{
+  "name": "wick-api",
+  "version": "1.0.0",
+  "description": "<h1 align='center'>Wick Api</h1>",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
