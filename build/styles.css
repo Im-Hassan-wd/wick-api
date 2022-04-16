@@ -470,6 +470,79 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.m-4{
+  margin: 1rem;
+}
+
+.my-5{
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mb-14{
+  margin-bottom: 3.5rem;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.flex{
+  display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.max-w-6xl{
+  max-width: 72rem;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.flex-col{
+  flex-direction: column;
+}
+
+.gap-10{
+  gap: 2.5rem;
+}
+
+.rounded-lg{
+  border-radius: 0.5rem;
+}
+
+.bg-gray-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-2{
+  padding: 0.5rem;
+}
+
+.p-5{
+  padding: 1.25rem;
+}
+
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .text-center{
   text-align: center;
 }
@@ -478,9 +551,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: Inter, sans-serif;
 }
 
-.text-3xl{
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold{
