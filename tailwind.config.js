@@ -1,9 +1,9 @@
 module.exports = {
-  content: ["./public/*.{html,js}"],
+  content: ["./build/*.{html,js}"],
   theme: {
     extend: {
       fontFamily: {
-        base: ['Play', 'sans-serif']
+        base: ['Quicksand', 'sans-serif']
       }
     },
   },
