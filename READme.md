@@ -1,6 +1,6 @@
 <h1 align='center'>Wick Api</h1>
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](https://raw.githubusercontent.com/Im-Hassan-wd/wick-api/master/page.jpg)
 
 ### Tools
 
@@ -17,6 +17,16 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [n
 
 # clone this repository to your local machine
 
-$ git clone https://github.com/Im-Hassan-wd/Ninja-food.git
+$ git clone https://github.com/Im-Hassan-wd/wick-api.git
+
+# run the app
+
+$ npm i live-server -g
+$ live-server build
+
+# if you have live-server installed lacally
+
+right click on the build/index.html,
+then click open with live-server
 
 ```
