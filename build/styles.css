@@ -478,8 +478,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
+.mr-2{
+  margin-right: 0.5rem;
+}
+
 .flex{
   display: flex;
+}
+
+.w-4{
+  width: 1rem;
+}
+
+.w-10{
+  width: 2.5rem;
+}
+
+.w-52{
+  width: 13rem;
+}
+
+.w-96{
+  width: 24rem;
 }
 
 .items-center{
@@ -496,6 +516,15 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border{
   border-width: 1px;
+}
+
+.border-b{
+  border-bottom-width: 1px;
+}
+
+.border-gray-200{
+  --tw-border-opacity: 1;
+  border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
 .border-b-gray-200{
